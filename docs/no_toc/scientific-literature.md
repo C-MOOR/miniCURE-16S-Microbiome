@@ -10,7 +10,7 @@
 
 ## Pre-lab - Scientific literature
 
-<img src="scientific-literature_files/figure-html//1dEZtb0TgLbzhbr3HxQElwg8hENur2HMIzseg19OGd0g_g33d73503c03_0_51.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="scientific-literature_files/figure-html//1dEZtb0TgLbzhbr3HxQElwg8hENur2HMIzseg19OGd0g_g33d73503c03_0_51.png" alt="An image collage of content from the Hourigan et al. paper, including an image of the journal's name (Open Forum Infectious Diseases), title and authors, and three figures. 1) Alpha diversity, 2) Microbiome composition, and 3)A multidimensional analysis. The figures are colorful with their legends denoting different meanings between samples and taxa." width="100%" style="display: block; margin: auto;" />
 
 
 ### Purpose
@@ -74,7 +74,7 @@ Read the paper [“Fecal transplant in children with Clostridioides difficile gi
 
 <!-- Perhaps this could also be generic? -->
 
-<img src="scientific-literature_files/figure-html//1mibD1XUpgRZcDPbYj5XOMUASuScuJoUBVV7RkT5nnSc_g36d36570436_0_413.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="scientific-literature_files/figure-html//1mibD1XUpgRZcDPbYj5XOMUASuScuJoUBVV7RkT5nnSc_g36d36570436_0_413.png" alt="A title card for the Scientific Literature lecture which has the subtitle: Reading a paper: Hourigan et al. (2019). The C-MOOR logo is in the bottom left corner of the image." width="100%" style="display: block; margin: auto;" />
 
 [Lecture](https://docs.google.com/presentation/d/1mibD1XUpgRZcDPbYj5XOMUASuScuJoUBVV7RkT5nnSc/edit?usp=sharing)
 

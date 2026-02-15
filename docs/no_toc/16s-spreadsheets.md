@@ -4,7 +4,7 @@
 
 
 
-# 16S rRNA Data in spreadsheets
+# 16S rRNA Data in spreadsheets 
 
 ## Exploring 16S rRNA data in spreadsheets
 
@@ -15,7 +15,7 @@ In this section we will look at 16S data in a spreadsheet via Google Sheets. We 
 
 *Estimated time: *
 
-<img src="16s-spreadsheets_files/figure-html//14E26SbzaLEDJxAaZ1qjaZcJehAI8q2GHuTokNPKKDTc_g35f391192_00.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="16s-spreadsheets_files/figure-html//14E26SbzaLEDJxAaZ1qjaZcJehAI8q2GHuTokNPKKDTc_g35f391192_00.png" alt="A title slide for the lecture titled: Introduction to 16S rRNA Data Using Spreadsheets. The C-MOOR logo is shown in the bottom left corner." width="100%" style="display: block; margin: auto;" />
 
 [Lecture](https://docs.google.com/presentation/d/14E26SbzaLEDJxAaZ1qjaZcJehAI8q2GHuTokNPKKDTc/edit?usp=sharing)
 

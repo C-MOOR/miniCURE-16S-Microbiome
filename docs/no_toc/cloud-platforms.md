@@ -21,7 +21,7 @@ In this section, we will set up our accounts on AnVIL and go through the entire 
 
 ## Sign up for an AnVIL account
 
-<img src="cloud-platforms_files/figure-html//1uwlG7uaTOnItdpd4Ll6nNQiBJKBivsvR-erupicAwJM_g3709d9ac459_0_250.png" width="100%" style="display: block; margin: auto;" />
+<img src="cloud-platforms_files/figure-html//1uwlG7uaTOnItdpd4Ll6nNQiBJKBivsvR-erupicAwJM_g3709d9ac459_0_250.png" alt="Title card for sign up for an AnVIL account which notes a prerequisitite: A Google associated email address such as an institutional account that uses Gmail or a personal Gmail" width="100%" style="display: block; margin: auto;" />
 
 #### Purpose
 
@@ -38,7 +38,7 @@ You will need an account on AnVIL in order to use the platform. In this section 
 Follow the written steps below or refer to the [slides](https://docs.google.com/presentation/d/1uwlG7uaTOnItdpd4Ll6nNQiBJKBivsvR-erupicAwJM/edit?usp=sharing) or video guide.
 
 
-<img src="cloud-platforms_files/figure-html//1uwlG7uaTOnItdpd4Ll6nNQiBJKBivsvR-erupicAwJM_g3709d9ac459_0_299.png" width="100%" style="display: block; margin: auto;" />
+<img src="cloud-platforms_files/figure-html//1uwlG7uaTOnItdpd4Ll6nNQiBJKBivsvR-erupicAwJM_g3709d9ac459_0_299.png" alt="Image showing the AnVIL homescreen and accessing the sign in button through the hamburger icon in the top right corner of the page." width="100%" style="display: block; margin: auto;" />
 
 1. Open [anvil.terra.bio](https://anvil.terra.bio/) in <mark> **Google Chrome** </mark>. Google Chrome is the only officially supported web browser for AnVIL. Because of this, while you can run AnVIL in other browsers you strongly suggest using Chrome.
     - Tip: bookmark this page so that you can easily access it throughout the course.
@@ -46,7 +46,7 @@ Follow the written steps below or refer to the [slides](https://docs.google.com/
 1. Click "Sign in"
 
 
-<img src="cloud-platforms_files/figure-html//1uwlG7uaTOnItdpd4Ll6nNQiBJKBivsvR-erupicAwJM_g36368ab83bf_0_2.png" alt="'Test'" width="100%" style="display: block; margin: auto;" />
+<img src="cloud-platforms_files/figure-html//1uwlG7uaTOnItdpd4Ll6nNQiBJKBivsvR-erupicAwJM_g36368ab83bf_0_2.png" alt="Screenshots of signing into Terra with a Google associated account." width="100%" style="display: block; margin: auto;" />
 
 4. Click "Sign in with Google".
 5. Sign in with a <mark>**Google associated email address**</mark> such as an institutional email that uses Gmail or a personal Gmail account. You must use a Google associated email address to gain access to Google Cloud computing resources. 
@@ -59,7 +59,7 @@ Follow the written steps below or refer to the [slides](https://docs.google.com/
 
 <mark>**This section is only for instructors. Students do NOT have to set up workspaces.**</mark>
 
-<img src="cloud-platforms_files/figure-html//1uCiZDAwgh1iM5XPlpbK5uz7oVBujmimUXVQaR8iGuho_g368970cb22e_0_75.png" alt="test1" width="100%" style="display: block; margin: auto;" />
+<img src="cloud-platforms_files/figure-html//1uCiZDAwgh1iM5XPlpbK5uz7oVBujmimUXVQaR8iGuho_g368970cb22e_0_75.png" alt="Title card for setting up workspaces on AnVIL, which will cover managing students with groups, cloning a workspace for your class, and adding students to the workspace. A prerequisite is noted: you must have a billing account on AnVIL." width="100%" style="display: block; margin: auto;" />
 
 Follow the written steps below or refer to the [slides](https://docs.google.com/presentation/d/1uCiZDAwgh1iM5XPlpbK5uz7oVBujmimUXVQaR8iGuho/edit?usp=sharing) or video guide.
 
@@ -88,7 +88,7 @@ For more information on how to control computing charges, please see the Terra g
 ### Using groups to manage classes
 
 
-<img src="cloud-platforms_files/figure-html//1uCiZDAwgh1iM5XPlpbK5uz7oVBujmimUXVQaR8iGuho_g37166799c0e_0_17.png" alt="test4" width="100%" style="display: block; margin: auto;" />
+<img src="cloud-platforms_files/figure-html//1uCiZDAwgh1iM5XPlpbK5uz7oVBujmimUXVQaR8iGuho_g37166799c0e_0_17.png" alt="An image showing the steps to access groups within AnVIL following along with instructions below." width="100%" style="display: block; margin: auto;" />
 
 We recommend you manage students and their access to workspaces through groups. When people are added to a group, they are given a new group email address that controls everyone within that group. For example, if there are 20 people in the group, all 20 are added at one time when the group email is used to give a group access to a workspace. Likewise, we recommend any management of students, such as removal or additions later in the class, be managed through the group interface.
 
@@ -102,7 +102,7 @@ We recommend you manage students and their access to workspaces through groups. 
 
 ### Clone a workspace on AnVIL
 
-<img src="cloud-platforms_files/figure-html//1uCiZDAwgh1iM5XPlpbK5uz7oVBujmimUXVQaR8iGuho_g368970cb22e_0_0.png" width="100%" style="display: block; margin: auto;" />
+<img src="cloud-platforms_files/figure-html//1uCiZDAwgh1iM5XPlpbK5uz7oVBujmimUXVQaR8iGuho_g368970cb22e_0_0.png" alt="Image showing the steps to cloning a workspace in the workspaces tab on AnVIL following step-by-step directions below. Text reads: We recommend cloning one workspace for each section you teach. Each workspace can be shared by about 50 students without issue. You can clone multiple workspaces for exceptionally large classes." width="100%" style="display: block; margin: auto;" />
 
 The instructor will clone the workspace in AnVIL. We recommend cloning one workspace for each section you teach. Each workspace can be shared by approximately 50 students without issue. You can clone multiple workspaces for exceptionally large classes. Students in a given section will use the cloned workspace for all learning modules and the research project.
 
@@ -112,13 +112,13 @@ The instructor will clone the workspace in AnVIL. We recommend cloning one works
 3. Search for the desired workspace. Your instructor will tell you which workspace to look for (miniCURE-RNA-seq or miniCURE-16S-microbiome).
 4. Click on the more options icon on the right side of the desired workspace and click clone
 
-<img src="cloud-platforms_files/figure-html//1uCiZDAwgh1iM5XPlpbK5uz7oVBujmimUXVQaR8iGuho_g368970cb22e_0_147.png" width="100%" style="display: block; margin: auto;" />
+<img src="cloud-platforms_files/figure-html//1uCiZDAwgh1iM5XPlpbK5uz7oVBujmimUXVQaR8iGuho_g368970cb22e_0_147.png" alt="Image showing the Clone Workspace image in AnVIL with red boxes highlighting fields to change the workspace name and associated billing project." width="100%" style="display: block; margin: auto;" />
 
 
 5. Give the cloned workspace a unique name. We recommend choosing the class and section name that the workspace is intended for.
 6. Confirm the billing project is the one you want to use. In this example, we have a billing project by semester and curriculum. All computational costs by students in the workspace will be billed ot this account.
 
-<img src="cloud-platforms_files/figure-html//1uCiZDAwgh1iM5XPlpbK5uz7oVBujmimUXVQaR8iGuho_g368970cb22e_0_151.png" width="100%" style="display: block; margin: auto;" />
+<img src="cloud-platforms_files/figure-html//1uCiZDAwgh1iM5XPlpbK5uz7oVBujmimUXVQaR8iGuho_g368970cb22e_0_151.png" alt="A screenshot of the clone workspace window in AnVIL in tab 2, the sharing tab, where user emails can be used to give access to the workspace. The example settings are to add with writer permissions, including compute access." width="100%" style="display: block; margin: auto;" />
 
 7. In the sharing step, add the students to the workspace using their group email. Refer to the section on managing students with groups for more information on adding students to groups.
 8. Make the students writers.
@@ -130,7 +130,7 @@ The instructor will clone the workspace in AnVIL. We recommend cloning one works
 
 ## Running a module on AnVIL
 <!-- change fig.align quotes from single to double -->
-<img src="cloud-platforms_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_250.png" width="100%" style="display: block; margin: auto;" />
+<img src="cloud-platforms_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_250.png" alt="Title card for Running modules on AnVIL including running the modules and then closing the session. A prerequisite is listed: Your instructor (if you are a student) has added you to an AnVIL workspace." width="100%" style="display: block; margin: auto;" />
 
 #### Purpose
 
@@ -155,7 +155,7 @@ The workspace is the heart of AnVIL. Here are some key points about workspaces:
 
 When you open the workspace, you will be on the dashboard tab by default. The dashboard contains the instructions on how to use the workspace, links to C-MOOR websites, and the startup script. Let’s try running a module.
 
-<img src="cloud-platforms_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_271.png" width="100%" style="display: block; margin: auto;" />
+<img src="cloud-platforms_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_271.png" alt="An image titled Running modules on AnVIL showing a C-MOOR workspace and red boxes showing the container image and start up script lines needed to create an environment." width="100%" style="display: block; margin: auto;" />
 
 1. Take note of the container image for the custom environment. We recommend copying this to a word document or notepad. Make sure there are no spaces before or after what you copy. You will need to input this URL soon.
 
@@ -163,7 +163,7 @@ When you open the workspace, you will be on the dashboard tab by default. The da
 
 3. Click on the Environment Configuration button , the cloud with a thunderbolt.
 
-<img src="cloud-platforms_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_275.png" width="100%" style="display: block; margin: auto;" />
+<img src="cloud-platforms_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_275.png" alt="Image showing how to access the cloud environment and highlighting what settings with red boxes to adjust as per list below." width="100%" style="display: block; margin: auto;" />
 
 4. In the RStudio section, click Settings.
 
@@ -175,23 +175,23 @@ When you open the workspace, you will be on the dashboard tab by default. The da
 
 8. Scroll to the bottom of the window and click “Create”. 
 
-<img src="cloud-platforms_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_279.png" width="100%" style="display: block; margin: auto;" />
+<img src="cloud-platforms_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_279.png" alt="Image showing the RStudio environment lifecycle at different stages. Blue for busy, green for ready, and orange for paused." width="100%" style="display: block; margin: auto;" />
 
 It will take some time for the RStudio Environment to be created. You can keep track of the status of the environment based on the colored dot next to the RStudio icon. The dot will turn green when the environment is ready. While it is loading (blue), you cannot interact with it.
 
-<img src="cloud-platforms_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_283.png" width="100%" style="display: block; margin: auto;" />
+<img src="cloud-platforms_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_283.png" alt="Image with a red box around the pop-up that appears when the RStudio environment is ready" width="100%" style="display: block; margin: auto;" />
 
 9. When the environment is ready, use the Open RStudio button that will pop up. You can also access RStudio through the Analyses tab. If you hold down Ctrl as you click, you can open RStudio in a new window.
 
-<img src="cloud-platforms_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_287.png" width="100%" style="display: block; margin: auto;" />
+<img src="cloud-platforms_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_287.png" alt="Image showing the RStudio interface open on AnVIL, with red boxes showing how to use the file explorer and navigating to C-MOOR modules" width="100%" style="display: block; margin: auto;" />
 
 10. Use the file explorer in RStudio to navigate to your module of choice. First, enter the folder of the curriculum you are using, either rnaseq (not cure-rnaseq) or 16s. Then enter the folder of the module you want to run. 
 
-<img src="cloud-platforms_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_291.png" width="100%" style="display: block; margin: auto;" />
+<img src="cloud-platforms_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_291.png" alt="Image showing a .Rmd file in a C-MOOR folder surrounded by a red box." width="100%" style="display: block; margin: auto;" />
 
 11. In the module’s directory, open the .Rmd file by double clicking its name.
 
-<img src="cloud-platforms_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_295.png" width="100%" style="display: block; margin: auto;" />
+<img src="cloud-platforms_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_295.png" alt="Image showing the RStudio interface and a red box around the Run Document button, distinct from the run button." width="100%" style="display: block; margin: auto;" />
 
 12. Click Run Document in the open .Rmd file
 
@@ -199,9 +199,9 @@ It will take some time for the RStudio Environment to be created. You can keep t
 
 ### Closing out a session on AnVIL
 
-<img src="cloud-platforms_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_299.png" alt="The status of the RStudio Environment." width="100%" style="display: block; margin: auto;" />
+<img src="cloud-platforms_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_299.png" alt="Image showing the steps needed to close out an interactive session on AnVIL with each step in the list below shown in a red box." width="100%" style="display: block; margin: auto;" />
 
-1. On the right side of the screen, click the Cloud Environment button. This is the Cloud with the lighnting symbol.
+1. On the right side of the screen, click the Cloud Environment button. This is the Cloud with the lightning symbol.
 1. Under the RStudio section, click settings.
 1. Scroll to the bottom of the new window and click delete environment.
 1. Check <mark>**Delete everything, including the persistent disk or your instructor's billing account will incur costs for storage**</mark>. 

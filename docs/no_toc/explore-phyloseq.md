@@ -15,7 +15,7 @@
 
 *Estimated time: *
 
-<img src="explore-phyloseq_files/figure-html//15tv_IS177gF_px3JYKcQZmOsJg2d-GkjVXi7a-Skgs8_g35f391192_00.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="explore-phyloseq_files/figure-html//15tv_IS177gF_px3JYKcQZmOsJg2d-GkjVXi7a-Skgs8_g35f391192_00.png" alt="A title slide for the lecture titled: Exploring 16S rRNA Data with phyloseq. The C-MOOR logo is shown in the bottom left corner." width="100%" style="display: block; margin: auto;" />
 
 [Lecture](https://docs.google.com/presentation/d/15tv_IS177gF_px3JYKcQZmOsJg2d-GkjVXi7a-Skgs8/edit?usp=sharing)
 

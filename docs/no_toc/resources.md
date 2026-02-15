@@ -93,7 +93,7 @@ To use the calculation multiple times, we can do the following, all of which wil
 
 ### Manipulating the spreadsheet
 
-<img src="resources_files/figure-html//1ah82NLd1weER1SUEJ9aPFDWT2vLg5wK5JW6tjdVkf6o_g3b212331eba_0_28.png" alt="Right clicking on a column or row brings up a menu which allows the user to perform more functions such as by inserting/deleting columns and rows, filtering, and sorting data." width="100%" style="display: block; margin: auto;" />
+<img src="resources_files/figure-html//1ah82NLd1weER1SUEJ9aPFDWT2vLg5wK5JW6tjdVkf6o_g3b212331eba_0_28.png" alt="An image showing that right clicking on a column or row brings up a menu which allows the user to perform more functions such as by inserting/deleting columns and rows, filtering, and sorting data." width="100%" style="display: block; margin: auto;" />
 
 Right clicking a column or row brings up a menu with options for adding or deleting columns/rows, filtering data, or sorting the spreadsheet.
 
@@ -172,7 +172,7 @@ Tables contain information organized into rows and columns. Common examples of i
 
 # 16S miniCURE Guide
 
-<img src="resources_files/figure-html//1dEZtb0TgLbzhbr3HxQElwg8hENur2HMIzseg19OGd0g_g364010c1963_0_5.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="resources_files/figure-html//1dEZtb0TgLbzhbr3HxQElwg8hENur2HMIzseg19OGd0g_g364010c1963_0_5.png" alt="An image of a slide titled: Human Gut 16S microbiome miniCURE Guide. Three pages from the guide are shown left to right with a description underneath each: 1) AnVIL Quickstart Sheets, 2) Guided code, 3) Interpreting results." width="100%" style="display: block; margin: auto;" />
 
 We have a [comprehensive guide for this miniCURE](https://docs.google.com/presentation/d/1uipJ2uS2g8svKtWX-mN3MGvWYLWL9C0Pmv2nK6FjbCo/edit?usp=sharing)!
 
