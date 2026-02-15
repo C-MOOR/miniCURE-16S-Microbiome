@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2026-01-27" />
+<meta name="date" content="2026-02-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -439,7 +439,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <p>It’s difficult to capture the mechanisms and effects of diet on the gut microbiome given the sheer number of variables involved. The microbiome individuality and stability over time (MISO) study aimed to explore the connection between diet, microbiome, and metabolites by looking at the effect of feeding a standardized diet to people over 7 days.</p>
 <div id="miso-study-diet-and-sampling-schedule" class="section level3 hasAnchor" number="6.0.1">
 <h3><span class="header-section-number">6.0.1</span> MISO study diet and sampling schedule<a href="reference---meet-the-miso-study.html#miso-study-diet-and-sampling-schedule" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><img src="meet-MISO_files/figure-html/1dEZtb0TgLbzhbr3HxQElwg8hENur2HMIzseg19OGd0g_g33d6fd7d4b6_0_27.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="meet-MISO_files/figure-html/1dEZtb0TgLbzhbr3HxQElwg8hENur2HMIzseg19OGd0g_g33d6fd7d4b6_0_27.png" alt="An image showing the sampling scheme of the MISO study. Samples are taken at 5 time points, 2 during the baseline diet phase, 2 during the homogenized diet phase, and one during the washout diet phase. The experiment lasts 28 days total. Some samplings are closer to each other than others temporally." width="100%" style="display: block; margin: auto;" /></p>
 <p>The figure above shows the study design for the MISO study. You do not need to memorize all these details; feel free to refer to this page throughout the project:</p>
 <ul>
 <li>Participants eat their usual, <strong>baseline diet (BD) for 14 days</strong></li>
@@ -457,7 +457,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="miso-study-variables-and-factors" class="section level3 hasAnchor" number="6.0.2">
 <h3><span class="header-section-number">6.0.2</span> MISO study variables and factors<a href="reference---meet-the-miso-study.html#miso-study-variables-and-factors" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><img src="meet-MISO_files/figure-html/1dEZtb0TgLbzhbr3HxQElwg8hENur2HMIzseg19OGd0g_g33d6fd7d4b6_0_61.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="meet-MISO_files/figure-html/1dEZtb0TgLbzhbr3HxQElwg8hENur2HMIzseg19OGd0g_g33d6fd7d4b6_0_61.png" alt="A slide titled MISO study variables. There are 3 columns from left to right: study design represented by a calendar and clock, subject, represented by three people, and metabolites, represented by a partially filled sample tube rack. Under each section are related variables listed in the following study design variables section." width="100%" style="display: block; margin: auto;" /></p>
 <p>We have a number of variables we can use in our analysis. Notice that the variables for the study and subjects are in lowercase. This is also how you will access these variables in R.</p>
 <div id="study-design-variables" class="section level4 hasAnchor" number="6.0.2.1">
 <h4><span class="header-section-number">6.0.2.1</span> Study design variables<a href="reference---meet-the-miso-study.html#study-design-variables" class="anchor-section" aria-label="Anchor link to header"></a></h4>
@@ -576,10 +576,10 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <div id="amplicon-sequence-variants-asvs-data" class="section level3 hasAnchor" number="6.0.3">
 <h3><span class="header-section-number">6.0.3</span> Amplicon sequence variants (ASVs) data<a href="reference---meet-the-miso-study.html#amplicon-sequence-variants-asvs-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Finally we have our microbe count data, or our <em>Amplicon Sequence Variants (ASVs)</em>. Each ASV is a unique sequences that differs by as little as a single nucleotide from other ASVs and represents a specific microbe. We have assigned taxonomy to these microbes, but not all microbes have taxonomic data through the species level. These missing fields will appear as NA in the data.</p>
-<p><img src="meet-MISO_files/figure-html/1dEZtb0TgLbzhbr3HxQElwg8hENur2HMIzseg19OGd0g_g33d6fd7d4b6_0_136.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="meet-MISO_files/figure-html/1dEZtb0TgLbzhbr3HxQElwg8hENur2HMIzseg19OGd0g_g33d6fd7d4b6_0_136.png" alt="A slide titled Amplicon Sequence Variants (ASVs). On the side of the slide reads in bullet points: 1) ASVs are unique sequences that differ by as little as a single nucleotide and represent distinct microbes. 2) Taxonomic information has been assigned to each ASV at as high a resolution as possible. On the right side there is a bolded title that reads: ASVs are assigned taxonomic information from databases of known sequences and microbes, underneath which is an image of a laptop and three colored lines representing unique ASVs (sequences) that correlate to one of three microbes in correlated colors." width="100%" style="display: block; margin: auto;" /></p>
 <p>You may see the word Operational Taxonomic Unit (OTU) in phyloseq and in other published studies. <strong>ASVs and OTUs have some differences between them but they both represent distinct units of microbial taxa</strong>, although they have some key differences.</p>
 <p>Each sample is associated with a count of each ASV. We can compare the counts of these ASVs between samples to determine differences in the composition of the microbiome between samples.</p>
-<p><img src="meet-MISO_files/figure-html/1dEZtb0TgLbzhbr3HxQElwg8hENur2HMIzseg19OGd0g_g33d6fd7d4b6_0_113.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="meet-MISO_files/figure-html/1dEZtb0TgLbzhbr3HxQElwg8hENur2HMIzseg19OGd0g_g33d6fd7d4b6_0_113.png" alt="A slide titled Each sample has a count of each ASV. On the left side of the slide is an upside down pyramid with the largest rectangle on top and smallest on the bottom. From the top to bottom are the taxonomic ranks: Kingdom, Phylum, Class, Order, Family, Genus, and Species, along with the taxonomy for Roseburia inulinivorans. An arrow denotes that this ASV is ASV 53 and points to a table that relates the counts of each ASV found in each specific sample. For ASV 53, there are 32 counts found in the sample MISO1-S02-1 and 16 counts found in the sample MISO1-S23-1." width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="footnotes-3" class="section level3 hasAnchor" number="6.0.4">
 <h3><span class="header-section-number">6.0.4</span> Footnotes<a href="reference---meet-the-miso-study.html#footnotes-3" class="anchor-section" aria-label="Anchor link to header"></a></h3>

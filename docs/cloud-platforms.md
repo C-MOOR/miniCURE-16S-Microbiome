@@ -29,6 +29,13 @@ In this section, we will set up our accounts on AnVIL and go through the entire 
 
 ```
 ## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+```
 ## Warning: Chunk option fig.align is not supported for docx output
 ```
 
@@ -336,7 +343,7 @@ It will take some time for the RStudio Environment to be created. You can keep t
 
 ![](cloud-platforms_files/figure-docx//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_299.png){width=100%}
 
-1. On the right side of the screen, click the Cloud Environment button. This is the Cloud with the lighnting symbol.
+1. On the right side of the screen, click the Cloud Environment button. This is the Cloud with the lightning symbol.
 1. Under the RStudio section, click settings.
 1. Scroll to the bottom of the new window and click delete environment.
 1. Check <mark>**Delete everything, including the persistent disk or your instructor's billing account will incur costs for storage**</mark>. 

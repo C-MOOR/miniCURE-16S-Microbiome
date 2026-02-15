@@ -4,7 +4,7 @@
 
 
 
-# Analyzing 16S rRNA Data with phyloseq
+# Analyzing 16S rRNA Data with phyloseq 
 
 ## Analyzing 16S rRNA Data with phyloseq
 
