@@ -23,7 +23,7 @@ These analyses are slightly more complex to run and interpret, but students who 
 
 *Estimated time: *
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "A title slide for the lecture titled: Analyzing 16S rRNA Data with phyloseq. The C-MOOR logo is shown in the bottom left corner"}
 
 ottrpal::include_slide("https://docs.google.com/presentation/d/1QZbSBPOGkBeizh1L45C6EaktOxl6pqrTDGNIncHQ5lY/edit#slide=id.g35f391192_00")
 

@@ -17,7 +17,7 @@ ottrpal::set_knitr_image_path()
 
 *Estimated time: *
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "A title slide for the lecture titled: Exploring 16S rRNA Data with phyloseq. The C-MOOR logo is shown in the bottom left corner."}
 
 ottrpal::include_slide("https://docs.google.com/presentation/d/15tv_IS177gF_px3JYKcQZmOsJg2d-GkjVXi7a-Skgs8/edit#slide=id.g35f391192_00")
 
