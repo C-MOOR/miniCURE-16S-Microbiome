@@ -17,7 +17,7 @@ In this section we will look at 16S data in a spreadsheet via Google Sheets. We 
 
 *Estimated time: *
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "A title slide for the lecture titled: Introduction to 16S rRNA Data Using Spreadsheets. The C-MOOR logo is shown in the bottom left corner."}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 
 ottrpal::include_slide("https://docs.google.com/presentation/d/14E26SbzaLEDJxAaZ1qjaZcJehAI8q2GHuTokNPKKDTc/edit#slide=id.g35f391192_00")
 

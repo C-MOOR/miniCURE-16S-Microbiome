@@ -12,7 +12,7 @@ ottrpal::set_knitr_image_path()
 
 ## Pre-lab - Scientific literature
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "An image collage of content from the Hourigan et al. paper, including an image of the journal's name (Open Forum Infectious Diseases), title and authors, and three figures. 1) Alpha diversity, 2) Microbiome composition, and 3)A multidimensional analysis. The figures are colorful with their legends denoting different meanings between samples and taxa."}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 
 ottrpal::include_slide("https://docs.google.com/presentation/d/1dEZtb0TgLbzhbr3HxQElwg8hENur2HMIzseg19OGd0g/edit#slide=id.g33d73503c03_0_51")
 
@@ -80,7 +80,7 @@ Read the paper [“Fecal transplant in children with Clostridioides difficile gi
 
 <!-- Perhaps this could also be generic? -->
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "A title card for the Scientific Literature lecture which has the subtitle: Reading a paper: Hourigan et al. (2019). The C-MOOR logo is in the bottom left corner of the image."}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 
 ottrpal::include_slide("https://docs.google.com/presentation/d/1mibD1XUpgRZcDPbYj5XOMUASuScuJoUBVV7RkT5nnSc/edit#slide=id.g36d36570436_0_413")
 

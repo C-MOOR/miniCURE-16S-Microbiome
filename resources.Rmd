@@ -19,7 +19,7 @@ cow::borrow_chapter(
 
 # 16S miniCURE Guide
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "An image of a slide titled: Human Gut 16S microbiome miniCURE Guide. Three pages from the guide are shown left to right with a description underneath each: 1) AnVIL Quickstart Sheets, 2) Guided code, 3) Interpreting results."}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 
 ottrpal::include_slide("https://docs.google.com/presentation/d/1dEZtb0TgLbzhbr3HxQElwg8hENur2HMIzseg19OGd0g/edit#slide=id.g364010c1963_0_5")
 
