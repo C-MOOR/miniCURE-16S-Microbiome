@@ -4,7 +4,6 @@ repo: https://github.com/sayumiyork/miniCURE-16S_Test/
 rmd_files: ["index.Rmd",
             "introduction.Rmd",
             "scientific-literature.Rmd",
-            "meet-MISO.Rmd",
             "16s-spreadsheets.Rmd",
             "explore-phyloseq.Rmd",
             "analyze-phyloseq.Rmd",
