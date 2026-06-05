@@ -1,6 +1,6 @@
 ---
 title: "miniCURE: Human Gut 16S rRNA "
-date: "February 15, 2026"
+date: "June 05, 2026"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
@@ -16,135 +16,39 @@ output:
     bookdown::word_document2:
       toc: true
 ---
+# About this Course {-}
 
-# About {-}
+This miniCURE has students design an independent research project around a question relating to the human gut microbiome. As they build their project, students will describe microbes using different taxonomic ranks, find and read scientific literature, and think about how community composition, biodiversity, and specific microbes can differ between samples. Finally, students will practice the scientific process to test their own question about the gut microbiome from their chosen dataset.
 
-What is the essence/purpose of this course or module (2-3 sentences).
+<img src="index_files/figure-html//1dEZtb0TgLbzhbr3HxQElwg8hENur2HMIzseg19OGd0g_g363ea5c3bfa_0_43.png" alt="A graphic showing the 6 modules included in the 16S miniCURE." width="100%" style="display: block; margin: auto;" />
 
-<div class="figure">
-<img src="assets/C-MOOR_Template/c-moor-logo-horizontal.png" alt="C-MOOR logo" width="789" />
-<p class="caption">(\#fig:unnamed-chunk-1)C-MOOR logo</p>
-</div>
+### Skills Level {- .unlisted}
 
-### Audience and Prerequisites {- .unlisted}
+::: {.notice}
+_Genetics_  
+**Novice**: Foundational understanding of [prokaryotes and their relationships with hosts](https://openstax.org/books/biology-2e/pages/22-introduction)
 
-What is the target audience?
-
-<!-- Example:
-This module is designed for introductory biology courses.  Key ideas center around genes and homologs, and the proteins they encode.  We typically include this module as part of a Molecular Biology unit.
--->
-
-**Prerequisites**:
-
-  - Prereq 1
-  - Prereq 2
-  
-Why are these needed?  Provide a brief explanation that will help instructors decide whether it's a good fit for their students.
-
-<!-- Example:
-
-**Prerequisites**: Basic understanding of genes and homology
-
-The project portion of the module involves looking up genes in different databases (human and model organism). Students should have a basic understanding of what a gene is (and why we care about them), and why it makes sense to study similar genes (i.e. homologs) across different organisms.  This module will help solidify these concepts by having students investigate concrete examples of genes and their homologs.
-
--->
-
-
-### Format {- .unlisted}
-
-<!--
-Class Type should be one of the following (from CourseSource):
-- Lecture
-- Lab
-- Seminar
-- Discussion Section
-- On-line
-- Other
--->
-
-<!--
-Lesson Length should be one of the following (from CourseSource):
-- Portion of one class period
-- One class period
-- Multiple class periods
-- One term (semester or quarter)
-- One year
-- Other
-
-You can then provide additional details
-
-Example:
-
-- **Class Type:** Lab (computer based)
-- **Lesson Length:** One class period (2-3 hr lab)
-    - 40 min setup and introduction (for shorter lab periods, these can be done ahead of time)
-    - 2 hr core lab exercises
-    - Optional 20 min "challenge" exercise
-    
-Another example:
-
-- **Class Type:** Lab (computer based)
-- **Lesson Length:** One class period (2-3 hr lab)
-    - 30 min pre-lab introducing ...
-    - 15 min lab-lecture
-    - 1.5 hr core lab exercises
-      - 45 min exercises covering...
-      - 45 min project investigating...
-    - (flexible) write-up and/or present findings
-
--->
-
-- **Class Type:**
-- **Lesson Length:**
+_Programming skills_  
+**Novice**: No programming experience needed
+:::
 
 ### Learning Goals {-}
 
-1. Goal 1 
-1. Goal 2
-1. Goal 3
+- **Find and read scientific literature** to interact with the greater scientific community and build an epistemological identity
+- **Analyze data (i.e. create and interpret plots)** to generate novel conclusions and new lines of inquiry based on previous findings.
+- **Cultivate an “-omics” perspective**, to identify the advantages of genomic science for large datasets and connect findings to biological insights
+- **Practice the scientific process**, identifying avenues for research, designing experiments, analyzing data, and integrating results into the broader scientific discourse.
 
 ### Core Competencies {- .unlisted}
 
-This activity addresses the following core concepts and competencies:
-
-<table>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> **Vision and Change** </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> **Genetics** </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> **Bioinformatics** </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-</tbody>
-</table>
-
-Core concepts and competencies are taken from the following sources:
+This activity addresses several core concepts and competencies from the following sources:
 
   - [Vision and Change in Undergraduate Biology Education](https://visionandchange.org/) AAAS report
-  - [Genetics Core Competencies](https://genetics-gsa.org/education/genetics-learning-framework/) by [GSA](https://genetics-gsa.org/)
+  - [Genetics Learning Framework](https://genetics-gsa.org/education/genetics-learning-framework/) by [GSA](https://genetics-gsa.org/)
   - [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by [NIBLSE](https://qubeshub.org/community/groups/niblse)
 
 
-### C-MOOR Content Collection {- .unlisted}
+See [Appendix](#competencies-table) for details.
 
 
-This content is part of a collection of teaching resources developed by C-MOOR.  C-MOOR works to break down barriers to scientific participation and build pathways for the next generation of data scientists through authentic research experiences.  Learn more about C-MOOR by [viewing our projects](https://github.com/c-moor), or read about how C-MOOR is [integrating research experience into undergraduate biology courses](https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor.html) at Clovis Community College.
-
-
-
-
-<!-- ## Available course formats
-This course is available in multiple formats which allows you to take it in the way that best suites your needs. You can take it for certificate which can be for free or fee.
-
-- The material for this course can be viewed without login requirement on this [Bookdown website](LINK HERE). This format might be most appropriate for you if you rely on screen-reader technology.
-- This course can be taken for [free certification through Leanpub](LINK HERE).
-- This course can be taken on [Coursera for certification here](LINK HERE) (but it is not available for free on Coursera).
-- Our courses are open source, you can find the [source material for this course on GitHub](LINK HERE). 
--->
 

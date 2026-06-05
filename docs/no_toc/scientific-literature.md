@@ -1,5 +1,5 @@
 
-# (PART\*) Scientific Literature {-}
+# (PART\*) Exploration and Discovery {-}
 
 <!-- Set up code of OTTR Book-->
 

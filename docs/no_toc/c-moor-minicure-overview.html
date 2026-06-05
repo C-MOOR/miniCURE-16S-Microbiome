@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>5.3 Activity - Exploring 16S rRNA Data with phyloseq | miniCURE: Human Gut 16S rRNA</title>
+  <title>1.1 C-MOOR miniCURE Overview | miniCURE: Human Gut 16S rRNA</title>
   <meta name="description" content="Description about Course/Book." />
   <meta name="generator" content="bookdown 0.46 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="5.3 Activity - Exploring 16S rRNA Data with phyloseq | miniCURE: Human Gut 16S rRNA" />
+  <meta property="og:title" content="1.1 C-MOOR miniCURE Overview | miniCURE: Human Gut 16S rRNA" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Description about Course/Book." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="5.3 Activity - Exploring 16S rRNA Data with phyloseq | miniCURE: Human Gut 16S rRNA" />
+  <meta name="twitter:title" content="1.1 C-MOOR miniCURE Overview | miniCURE: Human Gut 16S rRNA" />
   
   <meta name="twitter:description" content="Description about Course/Book." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="lecture---analyzing-16s-rrna-data-with-phyloseq.html"/>
-<link rel="next" href="try-it-question-1---how-sensitive-is-microbial-diversity-to-variables-like-diet-age-and-gender.html"/>
+<link rel="prev" href="introduction.html"/>
+<link rel="next" href="the-scientific-process.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -409,165 +409,33 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/C-MOOR_Template/dasl_thin_main_image.png">
 </div>
-<div id="activity---exploring-16s-rrna-data-with-phyloseq-1" class="section level2 hasAnchor" number="5.3">
-<h2><span class="header-section-number">5.3</span> Activity - Exploring 16S rRNA Data with phyloseq<a href="activity---exploring-16s-rrna-data-with-phyloseq-1.html#activity---exploring-16s-rrna-data-with-phyloseq-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="purpose-8" class="section level3 hasAnchor" number="5.3.1">
-<h3><span class="header-section-number">5.3.1</span> Purpose<a href="activity---exploring-16s-rrna-data-with-phyloseq-1.html#purpose-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>To analyze bacterial diversity based on 16S rRNA gene sequencing using data from the “Impact of a 7-day homogeneous diet on interpersonal variation in human gut microbiomes and metabolomes” by Guthrie et al., 2023. This study is also referred to as the MISO study for “Microbiome Individuality and Stability Over Time” because the study aims to understand variation (or stability) of microbiomes across individuals.</p>
-<p>This activity aims to analyze metagenomic diversity using the following R packages:</p>
+<div id="c-moor-minicure-overview" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> C-MOOR miniCURE Overview<a href="c-moor-minicure-overview.html#c-moor-minicure-overview" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="what-is-c-moor" class="section level3 hasAnchor" number="1.1.1">
+<h3><span class="header-section-number">1.1.1</span> What is C-MOOR?<a href="c-moor-minicure-overview.html#what-is-c-moor" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>C-MOOR is a project to invite students to join the data science revolution and be part of the next generation of data scientists. This project provides online materials to help students and instructors incorporate authentic research experiences in lower division courses.</p>
+<p>Over the years, C-MOOR has expanded its curricula to include RNA-seq, scRNA-seq, 16S amplicon sequencing, and WGS modules. Here’s some statistics about C-MOOR students:</p>
 <ul>
-<li><strong>phyloseq</strong>: A popular package for taxonomy profiling</li>
-<li><strong>DESeq2</strong>: A package originally designed for differential expression which we will use for differential abundance</li>
-<li><strong>ggplot2</strong>: A tidyverse package that produces high-quality figures</li>
+<li><strong>Students taught:</strong> 950+.</li>
+<li><strong>90% of our students are first years:</strong> We break the myth that only advanced-level students can perform and excel in real research.</li>
+<li><strong>Student research posters:</strong> 100+. We choose a poster as our final deliverable to facilitate participation in research symposiums. Posters also allow us to evaluate the efficacy of our curricula over the years and make it easy for instructors to quickly and objectively grade student work. You can see a handful of posters <a href="https://help.c-moor.org/c/look-at-this/8">here</a>!</li>
+<li><strong>50% + Students choose to present posters at optional symposiums:</strong> C-MOOR posters have served as the impetus for establishing a new research symposium at Clovis Community College. Our students have attended and won awards at their institution’s research days and at conferences such as GRADS-4C and the ASM Maryland Branch Meeting.</li>
 </ul>
 </div>
-<div id="learning-objectives-7" class="section level3 hasAnchor" number="5.3.2">
-<h3><span class="header-section-number">5.3.2</span> Learning objectives<a href="activity---exploring-16s-rrna-data-with-phyloseq-1.html#learning-objectives-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="why-data-science" class="section level3 hasAnchor" number="1.1.2">
+<h3><span class="header-section-number">1.1.2</span> Why data science?<a href="c-moor-minicure-overview.html#why-data-science" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Data Science is an evolving career path for individuals (data scientists) in fields that need to manipulate large amounts of data. The job of a Data Scientist was called by the Harvard Business Review “<a href="https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century">the sexiest job of the 21st century</a>” Data Scientists are individuals with a curiosity to look through data, identify patterns and develop testable hypotheses. In the Biological Sciences, data scientists dig through data to answer questions about health, disease, evolution, ecology, drug development, and much more. A currently relevant example is compiling and looking at the similarities and differences between the different SARS-CoV-2 strains and identify differences between strains that may lead to differences in rates of infection.</p>
+</div>
+<div id="learning-goals-1" class="section level3 hasAnchor" number="1.1.3">
+<h3><span class="header-section-number">1.1.3</span> Learning Goals<a href="c-moor-minicure-overview.html#learning-goals-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ol style="list-style-type: decimal">
-<li>Use phyloseq to cluster samples based on the similarity of their microbial compositions using multidimensional scaling methods (NMDS or PCoA)</li>
-<li>Use phyloseq to profile alpha diversity (Shannon and Simpson’s indices)</li>
-<li>Use DESeq2 to perform differential abundance analysis</li>
+<li>Engage with real and current scientific data</li>
+<li>Explore available research resources online</li>
+<li>Recognize the interdisciplinary nature of biological sciences</li>
+<li>Synthesize findings from scientific literature</li>
+<li>Summarize findings and discuss results with your peers</li>
+<li>Collaborate with peers on a data exploration activity</li>
 </ol>
-</div>
-<div id="introduction-8" class="section level3 hasAnchor" number="5.3.3">
-<h3><span class="header-section-number">5.3.3</span> Introduction<a href="activity---exploring-16s-rrna-data-with-phyloseq-1.html#introduction-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>16S data can be manipulated and visualized in a variety of ways. In Google Sheets, we explored the data manually to gain an understanding at the level of 1-10 ASVs. Through phyloseq we collapsed ASVs with the same taxonomic annotation to survey microbial diversity and perform the same exploration across the entire dataset. In this activity, we will use the functions of phyloseq and DESeq2 that are more advanced. These analyses would be extremely difficult and tedious to do manually and will allow us deeper insights into our dataset. We will cluster samples based on similarity of ASV counts, survey alpha diversity, and search for differentially abundant ASVs between different groups.</p>
-</div>
-<div id="activity-1-analyze-16s-rrna-data-with-phyloseq-tutorial" class="section level3 hasAnchor" number="5.3.4">
-<h3><span class="header-section-number">5.3.4</span> Activity 1 – Analyze 16S rRNA Data with phyloseq tutorial<a href="activity---exploring-16s-rrna-data-with-phyloseq-1.html#activity-1-analyze-16s-rrna-data-with-phyloseq-tutorial" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><em>Estimated time: 35 min</em></p>
-<p><strong>Activity 1. Explore a phyloseq object through the “Analyze 16S rRNA Data with phyloseq” tutorial on SciServer.</strong></p>
-<ol style="list-style-type: decimal">
-<li>Access the C-MOOR Tutorials</li>
-</ol>
-<ul>
-<li><p>If you are using SciServer, log into SciServer, click on compute and open your “C-MOOR LearnR” container. Visit SciServer Guides and FAQs if you need to jog your memory on how to do this.</p></li>
-<li><p>If you are using AnVIL, log into AnVIL, navigate to your class Workspace, start up an RStudio Cloud Environment, and open RStudio. Visit the AnVIL Guides and FAQs if you need to jog your memory on how to do this. This module can be found in the “2-analyze-ps” folder of the “16s” curriculum folder.</p></li>
-<li><p>If you are using an alternative setup, follow the instructions provided by your instructor.</p></li>
-</ul>
-<ol start="2" style="list-style-type: decimal">
-<li>Start the “Analyze 16S rRNA Data with phyloseq” tutorial. Visit SciServer Guides and FAQs. If you need assistance accessing the tutorial.</li>
-<li>To move through the activities click “Continue” at the bottom of the screen. When you are done with a topic, click “Next Topic” to move on.</li>
-<li>This tutorial has small boxes in which you can enter and run short lines of code to analyze the data.</li>
-<li>As you work through the tutorial, take snapshots of your work and paste your answers in the grey boxes below:</li>
-</ol>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left"><strong>1-1. Alpha diversity section: Take a snapshot and paste the code for an alpha diversity plot (Simpson) from the quiz question: What male subject has the data point for the LOWEST alpha diversity? HINT: Use subset_samples() to subset males, and specify individuals (subject) on x-axis of the alpha diversity plot</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left"><strong>1-2. PCoA section: Take a snapshot and paste the code for a PCoA plot from the quiz question: In a PCoA with only data from ASVs with the class Bacteroidia, what is the percent of variance in the dataset explained by principal coordinate 1? HINT: You will need to change the code subsetting phylum and Firmicutes</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left"><strong>1-3. Differential abundance: Take a snapshot and paste the code for the differential abundance plot for the quiz question: Which of the following Phylum have ASVs that are differentially abundant between the subject S02 and subject S03?</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="activity-2-try-it-out-questions-1" class="section level3 hasAnchor" number="5.3.5">
-<h3><span class="header-section-number">5.3.5</span> Activity 2 – Try it out questions<a href="activity---exploring-16s-rrna-data-with-phyloseq-1.html#activity-2-try-it-out-questions-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><em>Estimated time: 60 min</em></p>
-<p>With your group, perform some exploratory data analysis selecting from one of the four questions below or coming up with your own question. Each question has its own section with code templates for you to use below. Select a question here, then go to the page specific to your question.</p>
-<div id="question-1.-how-sensitive-is-microbial-diversity-to-variables-like-diet-age-and-gender" class="section level4 hasAnchor" number="5.3.5.1">
-<h4><span class="header-section-number">5.3.5.1</span> Question 1. How sensitive is microbial diversity to variables like diet, age and gender?<a href="activity---exploring-16s-rrna-data-with-phyloseq-1.html#question-1.-how-sensitive-is-microbial-diversity-to-variables-like-diet-age-and-gender" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>Alpha diversity is a measure that estimates how the distribution of microbes changes due to a variable (or metadata category). Alpha diversity measures changes in the richness (the number of different organisms or ASVs) and evenness (how evenly are these organisms distributed in terms of their abundance). Using the “MISO” study dataset we will use Simpson (or specifically, Gini-Simpson) alpha diversity to evaluate changes in microbial diversity in individuals due to different metadata variables.</p>
-<p>Approach: Plot Simpson alpha diversity using plot_richness() command in phyloseq and assess the impact of different study variables on changes in microbial diversity. Identify variables that impact alpha diversity. Visible shifts in alpha diversity suggest a shift in microbial diversity, and a higher alpha diversity value indicates an increase in alpha diversity (either richness or abundance).</p>
-<ol style="list-style-type: decimal">
-<li>Evaluate the impact of diet on alpha diversity by plotting ASVs based on “diet” variable.</li>
-<li>Evaluate the impact of individuality on alpha diversity by plotting ASVs based on “subject” variable.</li>
-<li>Evaluate the impact of gender on alpha diversity by plotting ASVs based on “age” variable.</li>
-<li>Evaluate the impact of gender on alpha diversity by plotting ASVs based on “gender” variable.</li>
-<li>Evaluate the impact of gender on alpha diversity by plotting ASVs based on the 5 different levels of metabolites in the study (Creatinine, PCS, IS, HIPP, PAG).</li>
-</ol>
-</div>
-<div id="question-2.-do-diet-age-gender-and-levels-of-metabolites-correlate-with-microbe-variation-between-individuals" class="section level4 hasAnchor" number="5.3.5.2">
-<h4><span class="header-section-number">5.3.5.2</span> Question 2. Do diet, age, gender and levels of metabolites correlate with microbe variation between individuals?<a href="activity---exploring-16s-rrna-data-with-phyloseq-1.html#question-2.-do-diet-age-gender-and-levels-of-metabolites-correlate-with-microbe-variation-between-individuals" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>A PCoA plot is a principal coordinate analysis used to represent similarity between samples (sample microbiomes in our case). Using the “MISO” study dataset, we will use the PCoA plot to summarize individuals based on ASVs and plot the resulting relationships between individuals. Based on how well color-coding the different variables matches the sample distribution on the PcOA plot, we will aim to help explain potential sources of sample similarity.</p>
-<p>Approach: Perform multidimensional scaling (also known as principal component analysis) to establish a relationship between the samples given multivariate data (metadata variables). Using a PcOA plot (via commands ordinate() and plot_ordination() in phyloseq), you will condense the original high-dimensional data into a low-dimensional one by converting data to distance map (matrix) with 2 dimensions, x and y, that best explain variability in your data. From your PCoA plot you will assess the contribution of different study variables to sample diversity and identify variables that correlate with sample diversity. In a PcOA plot, samples with similar microbial profiles will be plotted close and may appear as groups.</p>
-<ol style="list-style-type: decimal">
-<li>Make a PCoA plot, ordinate on the entire dataset (all ASVs) and color by individual. Investigate the shape of the resulting PCoA plot.</li>
-<li>Correlate PCoA plot shape with metadata variables by coloring the PCoA plot with different variables including diet, subject, age and gender. Do any of the variables correlate with the shape of PCoA plot and data groupings?</li>
-<li>Correlate PCoA plot shape with the levels of metabolites in the study (Creatinine, PCS, IS, HIPP, PAG). From the color-coding pattern, identify 1. which variables help potentially explain the data groups formed in the PCoA plot.
-Subset “HD”, ordinate on “HD”, and make a new PCoA plot.</li>
-</ol>
-</div>
-<div id="question-3.-what-microbes-asvs-differ-between-males-and-females-and-does-age-have-an-impact" class="section level4 hasAnchor" number="5.3.5.3">
-<h4><span class="header-section-number">5.3.5.3</span> Question 3. What microbes (ASVs) differ between males and females, and does age have an impact?<a href="activity---exploring-16s-rrna-data-with-phyloseq-1.html#question-3.-what-microbes-asvs-differ-between-males-and-females-and-does-age-have-an-impact" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>Approach: Perform DESeq2 differential abundance analysis between females and males and determine how many differentially abundant microbes are there between the sexes. Then examine if age has a further impact on the differential abundance of the microbes between the sexes.</p>
-<ol style="list-style-type: decimal">
-<li>Perform DESeq2 analysis between females and males and identify differences.</li>
-<li>Test if younger age contributes to differential microbe abundance between females and males by subsetting younger (&lt; 50 years old) individuals.</li>
-<li>Test if older age contributes to differential microbe abundance between females and males by subsetting older (&gt; 50 years old) individuals.</li>
-</ol>
-</div>
-<div id="question-4.-is-there-diet-and-age-interaction-and-what-microbes-asvs-correlate-with-changes-in-diet-age-interaction" class="section level4 hasAnchor" number="5.3.5.4">
-<h4><span class="header-section-number">5.3.5.4</span> Question 4. Is there diet and age interaction and what microbes (ASVs) correlate with changes in diet-age interaction?<a href="activity---exploring-16s-rrna-data-with-phyloseq-1.html#question-4.-is-there-diet-and-age-interaction-and-what-microbes-asvs-correlate-with-changes-in-diet-age-interaction" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>Variables and conditions can interact with each other in complex ways. Here we will try to tease apart the relationship between the gut microbiome, diet, and age. What does an interaction look like? In this example, we’re looking at whether or not a change in diet affects people of different ages in different ways. We might imagine for example that a young person’s gut is more resilient to change than an older person’s or vice versa. Changes at one age group may be different in the other.</p>
-<p>Approach: Use alpha diversity measure and DESeq2 tools to answer this question. Using alpha diversity, determine if there is an interaction between diet and age. Then use DESeq2 to see if any ASVs are associated with changes in die-age interaction. Using Simpson alpha diversity measure (or specifically, Gini-Simpson) evaluate how microbial diversity changes with age and diet in general, or age and BD, HD and WO diet specifically. Then, use DESeq2 to evaluate if younger or older age changes ASVs associated with diet.</p>
-<ol style="list-style-type: decimal">
-<li>Plot alpha diversity based age for the population in general, and then for individuals subsetted for BD, HD and WO diets. Look for shifts in alpha diversity with change in diet.</li>
-<li>Perform DESeq2 analysis based on the diet for the population in general, establishing baseline differential abundance between dietary groups HD and BD.</li>
-<li>Perform DESeq2 analysis based on the diet for the younger (&lt;= 50 yo) and older (&gt;=50 yo) individuals, evaluating age-associated changes in differential abundance between dietary groups HD and BD.</li>
-</ol>
-</div>
-</div>
-<div id="grading-criteria-8" class="section level3 hasAnchor" number="5.3.6">
-<h3><span class="header-section-number">5.3.6</span> Grading criteria<a href="activity---exploring-16s-rrna-data-with-phyloseq-1.html#grading-criteria-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<ul>
-<li>Download the assignment to your local computer as a .docx, complete it, and upload the assignment to your LMS (Blackboard, Canvas, Google Classroom).</li>
-</ul>
-</div>
-<div id="footnotes-12" class="section level3 hasAnchor" number="5.3.7">
-<h3><span class="header-section-number">5.3.7</span> Footnotes<a href="activity---exploring-16s-rrna-data-with-phyloseq-1.html#footnotes-12" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div id="resources-16" class="section level4 hasAnchor" number="5.3.7.1">
-<h4><span class="header-section-number">5.3.7.1</span> Resources<a href="activity---exploring-16s-rrna-data-with-phyloseq-1.html#resources-16" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<ul>
-<li><a href="https://docs.google.com/document/d/1OWgUwaT2MlSd-qq7wSlB3BnM-cq_GTxEyy38HV5ajoU/edit?usp=sharing">Google Doc</a></li>
-<li><a href="https://docs.google.com/document/d/1pYTq_U-e3Fath5yB6N9b5ic-cMynUtclkEgdojkAXwE/edit?usp=sharing">16S rRNA R Quick Reference</a></li>
-</ul>
-</div>
-<div id="contributions-and-affiliations-12" class="section level4 hasAnchor" number="5.3.7.2">
-<h4><span class="header-section-number">5.3.7.2</span> Contributions and affiliations<a href="activity---exploring-16s-rrna-data-with-phyloseq-1.html#contributions-and-affiliations-12" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<ul>
-<li>Valeriya Gaysinskaya, Johns Hopkins University</li>
-<li>Gauri Paul, Clovis Community College</li>
-<li>Frederick Tan, Johns Hopkins University</li>
-<li>Sayumi York, Notre Dame of Maryland University</li>
-</ul>
-</div>
 </div>
 </div>
 <hr>
@@ -581,8 +449,8 @@ Subset “HD”, ordinate on “HD”, and make a new PCoA plot.</li>
           </div>
         </div>
       </div>
-<a href="lecture---analyzing-16s-rrna-data-with-phyloseq.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="try-it-question-1---how-sensitive-is-microbial-diversity-to-variables-like-diet-age-and-gender.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="introduction.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="the-scientific-process.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
