@@ -3,6 +3,36 @@
 library(cow)
 ```
 
+# Introduction
+
+## C-MOOR miniCURE Overview
+
+```{r, echo=FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "docs/about-c-moor.md",
+  repo_name = "C-MOOR/c-moor-ottr-generic"
+)
+```
+
+## The Scientific Process
+
+*Estimated time: 30 min*
+
+Watch this 10 min video and answer the questions below.
+
+![](https://img.youtube.com/vi/5kcAc20Bus8/0.jpg)
+
+[[video](https://www.youtube.com/watch?v=5kcAc20Bus8)][[slides](https://docs.google.com/presentation/d/1zWWdJcJUgp1mXoTE7d0V-7T9ft_Y1EmV0P3VEzWsAXs)]
+
+Describe the key aspects of each of the following elements of the scientific process:
+
+1. Exploration and Discovery
+1. Testing Ideas
+1. Community Analysis and Feedback
+1. Benefits and Outcomes
+
+Learn more at [Understanding Science 101](https://undsci.berkeley.edu/understanding-science-101/how-science-works/exploration-and-discovery)
+
 
 <!-- ```{r, echo=FALSE, results='asis'} -->
 <!-- cow::borrow_chapter( -->
@@ -11,21 +41,22 @@ library(cow)
 <!-- ) -->
 <!-- ``` -->
 
-<!-- AnVIL -->
-
-```{r, echo=FALSE, results='asis'}
-cow::borrow_chapter(
-  doc_path = "docs/anvil.md",
-  repo_name = "sayumiyork/c-moor-ottr-generic"
-)
-```
-
-
 <!-- SciServer -->
 
 ```{r, echo=FALSE, results='asis'}
 cow::borrow_chapter(
   doc_path = "docs/sciserver.md",
-  repo_name = "sayumiyork/c-moor-ottr-generic"
+  repo_name = "C-MOOR/c-moor-ottr-generic"
 )
 ```
+<!-- AnVIL -->
+
+```{r, echo=FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "docs/anvil.md",
+  repo_name = "C-MOOR/c-moor-ottr-generic"
+)
+```
+
+
+
