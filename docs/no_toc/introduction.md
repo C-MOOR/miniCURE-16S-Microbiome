@@ -10,6 +10,10 @@
 
 C-MOOR is a project to invite students to join the data science revolution and be part of the next generation of data scientists. This project provides online materials to help students and instructors incorporate authentic research experiences in lower division courses. 
 
+
+<img src="introduction_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g365128907e6_0_158.png" alt="Image showing the timeline of C-MOOR as an organization including funding and sites where C-MOOR curricula have been taught." width="100%" style="display: block; margin: auto;" />
+
+
 Over the years, C-MOOR has expanded its curricula to include RNA-seq, scRNA-seq, 16S amplicon sequencing, and WGS modules. Here's some statistics about C-MOOR students:
 
 - **Students taught:** 950+. 
@@ -86,7 +90,7 @@ This video ([video](https://link.c-moor.org/video-join-sciserver))([slides](http
 
 SciServer is an online platform for doing scientific data analysis. It is used by scientists studying astronomy, biology, oceanography, and more, and is free as long as you are using it for scientific research. Using SciServer means you do not need a fancy computer or need to install any special programs on your computer, you can just log in with your internet browser to start doing research.  For this course, we have set up SciServer with customized collections of programs for RNA-seq analysis, as well as the data that we’ll be analyzing.  Once you sign up for SciServer and are added to the group for this course, you will be able to access these tools and begin your data analysis journey!
 
-![](sciserver_files/figure-docx//1Q_U1qCEqpwknpOUG4gcuN_-w7ytPCtyfwCF5CGe5bAM_g344f6de1efa_0_5.png){width=100%}
+<img src="introduction_files/figure-html//1Q_U1qCEqpwknpOUG4gcuN_-w7ytPCtyfwCF5CGe5bAM_g344f6de1efa_0_5.png" alt="Homepage for SciServer, a cloud platform" width="100%" style="display: block; margin: auto;" />
 
 
 #### Part 1 -- Create an account on SciServer
@@ -184,11 +188,11 @@ This video ([video](https://link.c-moor.org/video-sciserver-create-learnr-contai
     a. You should see a list of tutorials, organized by topic.
 
 
-![](sciserver_files/figure-docx//1JxgfeibZU1HssPKzz_kItZImDA23ZNq1m2zpQDCx3Q4_g344f6de1efa_0_40.png){width=100%}
+<img src="introduction_files/figure-html//1JxgfeibZU1HssPKzz_kItZImDA23ZNq1m2zpQDCx3Q4_g344f6de1efa_0_40.png" alt="The list of C-MOOR tutorials - yours may be slightly different." width="100%" style="display: block; margin: auto;" />
 
 a. If instead you see an error message, you most likely forgot to check the box next to “C-MOOR Data” when you created the container.
   
-![](sciserver_files/figure-docx//1JxgfeibZU1HssPKzz_kItZImDA23ZNq1m2zpQDCx3Q4_g344f6de1efa_0_50.png){width=100%}
+<img src="introduction_files/figure-html//1JxgfeibZU1HssPKzz_kItZImDA23ZNq1m2zpQDCx3Q4_g344f6de1efa_0_50.png" alt="The error message you will see if you did not choose the correct options when setting up your container." width="100%" style="display: block; margin: auto;" />
 
 a. If you see something else, you may have picked the wrong “Compute Image” from the drop-down menu.
 
@@ -229,7 +233,7 @@ To delete a container:
 1. Find the container you want to delete.
 1. Click on the red “X” in the last column.
 
-![](sciserver_files/figure-docx//1JxgfeibZU1HssPKzz_kItZImDA23ZNq1m2zpQDCx3Q4_g344f6de1efa_0_45.png){width=100%}
+<img src="introduction_files/figure-html//1JxgfeibZU1HssPKzz_kItZImDA23ZNq1m2zpQDCx3Q4_g344f6de1efa_0_45.png" alt="Deleting a SciServer container." width="100%" style="display: block; margin: auto;" />
 
 ##### Resources
 
@@ -272,14 +276,14 @@ AnVIL (The Genomic Data Science **An**alysis, **V**isualization, and **I**nforma
 
 In this section, we will set up our accounts on AnVIL and go through the entire lifecycle of an RStudio environment from creation to deletion. You will repeat this process throughout the semester; feel free to refer back to this section if you need a refresher on how to use AnVIL.
 
-![](anvil_files/figure-docx//1uwlG7uaTOnItdpd4Ll6nNQiBJKBivsvR-erupicAwJM_g3709d9ac459_0_250.png){width=100%}
+<img src="introduction_files/figure-html//1uwlG7uaTOnItdpd4Ll6nNQiBJKBivsvR-erupicAwJM_g3709d9ac459_0_250.png" alt="Title card for sign up for an AnVIL account which notes a prerequisitite: A Google associated email address such as an institutional account that uses Gmail or a personal Gmail" width="100%" style="display: block; margin: auto;" />
 
 #### Part 1 -- Create an account on AnVIL
 
 Follow the written steps below or refer to the [slides](https://docs.google.com/presentation/d/1uwlG7uaTOnItdpd4Ll6nNQiBJKBivsvR-erupicAwJM/edit?usp=sharing) or video guide.
 
 
-![](anvil_files/figure-docx//1uwlG7uaTOnItdpd4Ll6nNQiBJKBivsvR-erupicAwJM_g3709d9ac459_0_299.png){width=100%}
+<img src="introduction_files/figure-html//1uwlG7uaTOnItdpd4Ll6nNQiBJKBivsvR-erupicAwJM_g3709d9ac459_0_299.png" alt="Image showing the AnVIL homescreen and accessing the sign in button through the hamburger icon in the top right corner of the page." width="100%" style="display: block; margin: auto;" />
 
 1. Open [anvil.terra.bio](https://anvil.terra.bio/) in <mark> **Google Chrome** </mark>. Google Chrome is the only officially supported web browser for AnVIL. Because of this, while you can run AnVIL in other browsers you strongly suggest using Chrome.
     - Tip: bookmark this page so that you can easily access it throughout the course.
@@ -287,7 +291,7 @@ Follow the written steps below or refer to the [slides](https://docs.google.com/
 1. Click "Sign in"
 
 
-![](anvil_files/figure-docx//1uwlG7uaTOnItdpd4Ll6nNQiBJKBivsvR-erupicAwJM_g36368ab83bf_0_2.png){width=100%}
+<img src="introduction_files/figure-html//1uwlG7uaTOnItdpd4Ll6nNQiBJKBivsvR-erupicAwJM_g36368ab83bf_0_2.png" alt="Screenshots of signing into Terra with a Google associated account." width="100%" style="display: block; margin: auto;" />
 
 4. Click "Sign in with Google".
 5. Sign in with a <mark>**Google associated email address**</mark> such as an institutional email that uses Gmail or a personal Gmail account. You must use a Google associated email address to gain access to Google Cloud computing resources. 
@@ -304,7 +308,7 @@ Follow the written steps below or refer to the [slides](https://docs.google.com/
 
 ### Running a module on AnVIL
 <!-- change fig.align quotes from single to double -->
-![](anvil_files/figure-docx//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_250.png){width=100%}
+<img src="introduction_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_250.png" alt="Title card for Running modules on AnVIL including running the modules and then closing the session. A prerequisite is listed: Your instructor (if you are a student) has added you to an AnVIL workspace." width="100%" style="display: block; margin: auto;" />
 
 #### Purpose
 
@@ -348,13 +352,13 @@ The workspace is the heart of AnVIL.
 
 When you open the workspace, you will be on the dashboard tab by default. The dashboard contains the instructions on how to use the workspace, links to C-MOOR websites, and the startup script. Let’s try running a module.
 
-![](anvil_files/figure-docx//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3e8341b93fe_0_0.png){width=100%}
+<img src="introduction_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3e8341b93fe_0_0.png" alt="An image titled Running modules on AnVIL showing a C-MOOR workspace alongside a red box and arrow showing start up script line and Environment Configuration button." width="100%" style="display: block; margin: auto;" />
 
 1.  Copy the URL of the startup script. Make sure there are no spaces before or after what you copy. This script is held in the original workspace everyone cloned. You will need to input this URL soon.
 
 2. Click on the Environment Configuration button, the cloud with a thunderbolt.
 
-![](anvil_files/figure-docx//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3e8341b93fe_0_13.png){width=100%}
+<img src="introduction_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3e8341b93fe_0_13.png" alt="Image showing how to access the cloud environment and highlighting what settings with red boxes to adjust as per list below." width="100%" style="display: block; margin: auto;" />
 
 3. In the RStudio section, click Settings
 
@@ -366,23 +370,23 @@ When you open the workspace, you will be on the dashboard tab by default. The da
 
 7. Scroll to the bottom of the window and click “Create”. It will take about 2 minutes for the environment to be created.
 
-![](anvil_files/figure-docx//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_279.png){width=100%}
+<img src="introduction_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_279.png" alt="Image showing the RStudio environment lifecycle at different stages. Blue for busy, green for ready, and orange for paused." width="100%" style="display: block; margin: auto;" />
 
 It will take some time for the RStudio Environment to be created. You can keep track of the status of the environment based on the colored dot next to the RStudio icon. The dot will turn green when the environment is ready. While it is loading (blue), you cannot interact with it.
 
-![](anvil_files/figure-docx//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3e8341b93fe_0_29.png){width=100%}
+<img src="introduction_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3e8341b93fe_0_29.png" alt="Image with a red box around the pop-up that appears when the RStudio environment is ready" width="100%" style="display: block; margin: auto;" />
 
 8. When the environment is ready, use the Open RStudio button that will pop up. If you hold down Ctrl as you click, you can open RStudio in a new window.
 
-![](anvil_files/figure-docx//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3e8341b93fe_0_33.png){width=100%}
+<img src="introduction_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3e8341b93fe_0_33.png" alt="Image showing the RStudio interface open on AnVIL, with red boxes showing how to use the file explorer and navigating to C-MOOR modules" width="100%" style="display: block; margin: auto;" />
 
 9. Use the file explorer in RStudio to navigate to your module of choice. First, enter the folder of the curriculum you are using, either rnaseq (not cure-rnaseq) or 16s. Then enter the folder of the module you want to run. 
 
-![](anvil_files/figure-docx//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3e8341b93fe_0_36.png){width=100%}
+<img src="introduction_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3e8341b93fe_0_36.png" alt="Image showing a .Rmd file in a C-MOOR folder surrounded by a red box." width="100%" style="display: block; margin: auto;" />
 
 10. In the module’s directory, open the .Rmd file by double clicking its name.
 
-![](anvil_files/figure-docx//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3e8341b93fe_0_39.png){width=100%}
+<img src="introduction_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3e8341b93fe_0_39.png" alt="Image showing the RStudio interface and a red box around the Run Document button, distinct from the run button." width="100%" style="display: block; margin: auto;" />
 
 11. Click Run Document in the open .Rmd file
 
@@ -395,7 +399,7 @@ It will take some time for the RStudio Environment to be created. You can keep t
 
 #### Part 3 -- Closing out a session on AnVIL
 
-![](anvil_files/figure-docx//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_299.png){width=100%}
+<img src="introduction_files/figure-html//11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_299.png" alt="Image showing the steps needed to close out an interactive session on AnVIL with each step in the list below shown in a red box." width="100%" style="display: block; margin: auto;" />
 
 1. On the right side of the screen, click the Cloud Environment button. This is the Cloud with the lightning symbol.
 1. Under the RStudio section, click settings.
@@ -414,6 +418,3 @@ It will take some time for the RStudio Environment to be created. You can keep t
 - Sayumi York, Notre Dame of Maryland University
 
 Last Revised: June 5, 2026
-
-
-
