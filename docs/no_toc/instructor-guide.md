@@ -1,23 +1,16 @@
 
 
 
+# Instructor Guide {-}
 
 
-
-<!-- Instructor Guide -->
-
-
-# (PART\*) INSTRUCTOR GUIDE {-}
-
-# For new instructors
+### For instructors {-}
 
 Welcome to new and seasoned instructors alike! We are excited to have you use a C-MOOR module in your class. This section of our OTTR book is specifically for instructors and will help you prepare for teaching a C-MOOR offering as a part of your class. 
 
-### Course-based undergraduate research experiences
-
 A **course-based undergraduate research experience (CURE)** is a high impact practice (HIP) where students learn through authentic research. In addition to the standard concepts of the material and the technical skills required to complete lab exercises students gain critical thinking skills troubleshooting their research projects. They don't just learn about science; they practice it!
 
-### How C-MOOR supports you
+### How C-MOOR supports you {-}
 
 Our curriculum is designed to be accessible for anyone to teach and aims to remove many of the barriers that prevent instructors from trying computational biology methods.
 
@@ -26,7 +19,7 @@ Our curriculum is designed to be accessible for anyone to teach and aims to remo
 - **We designed our miniCUREs to be modular to fit into your course**: Our miniCURE curricula are designed to be compact, with just 6 main sessions followed by project work. We've taught our RNA-seq miniCURE in pre-established classes, such as introductory biology. You don't have to design your entire course around them and the modules fit easily into your lessons about gene expression and microbiology.
 
 
-### New instructor to-do list
+### New instructor to-do list {-}
 
 If you haven't taught a C-MOOR curriculum in the past, here's a list of tasks you should do, ideally before the semester begins:
 
@@ -38,7 +31,7 @@ If you haven't taught a C-MOOR curriculum in the past, here's a list of tasks yo
   - Any previous experience with bioinformatics
   - The cloud platform you will be using to teach (see next item)
 
-2. **Set up on a cloud platform**: C-MOOR uses either [SciServer](https://www.sciserver.org/) or [AnVIL](https://anvil.terra.bio/) for our cloud computing needs. If you're not sure which is right for you, please mention this in your forum post so we can get you set up on whichever is more appropriate. Once you've chosen your cloud platform, follow the instructions in the respective section to access modules and learn how to grant your students the same access. While you can technically run the modules locally, running them on a cloud platform will prevent the need for students to download all the neccessary components and provides you easier access to updates.
+2. **Set up on a cloud platform**: C-MOOR uses either [SciServer](https://www.sciserver.org/) or [AnVIL](https://anvil.terra.bio/) for our cloud computing needs. If you're not sure which is right for you, please mention this in your forum post so we can get you set up on whichever is more appropriate. Once you've chosen your cloud platform, follow the instructions in the respective section to access modules and learn how to grant your students the same access. While you can technically run the modules locally, running them on a cloud platform will prevent the need for students to download all the necessary components and provides you easier access to updates. Using a cloud platform will also grant your students access to computing resources beyond their local device.
 
 3. **Go through the modules yourself**: Familiarize yourself the curriculum and how to use the cloud platform and our fill-in-the-blank code chunks. Look through our resources and see what support is currently available; for example, our [C-MOOR RNA-seq guide](https://docs.google.com/presentation/d/1ic09dhbt6WLEAgBTOqfT_tveknFF936BPVC2JhjutmY/edit?usp=sharing) and our student made [How To Get Started With Your C-MOOR Project Guide](https://docs.google.com/document/d/1WxlN2XG5_VEDN0u-JpAO7dJQrG8P0YG6Svm-eEvagxY/edit?usp=sharing).  
 
@@ -48,26 +41,17 @@ If you haven't taught a C-MOOR curriculum in the past, here's a list of tasks yo
 
 6. **Have students create an account on your chosen cloud platform and provide the neccessary information to you:** Do this well in advance of the first day you're using the C-MOOR curriculum to avoid technical issues on the day of (ex. students without Google associated email addresses on AnVIL, students who have unknown errors logging into SciServer). You will need to collect the students' email addresses (AnVIL) or their usernames (SciServer). We recommend using tools in your LMS or a Google form to expedite this process.
 
-# Human gut 16S rRNA
 
-### Content overview
+### Content overview {-}
 
-### Sample Schedules
+| **Name** | **Length** | **Notes** |
+| :--- | :---: | :---: |
+| [Overview / Scientific Process](https://science.c-moor.org/miniCURE-16S-Microbiome/introduction.html) | 1 hr | |
+| [#1: Scientific Literature](https://science.c-moor.org/miniCURE-16S-Microbiome/scientific-literature.html) | Full lab | Pre-lab: Scientific Literature |
+| [#2: 16S rRNA Data in spreadsheets](https://science.c-moor.org/miniCURE-16S-Microbiome/s-rrna-data-in-spreadsheets.html) | Full lab |  |
+| [#3: Exploring 16S rRNA Data with Phyloseq](https://science.c-moor.org/miniCURE-16S-Microbiome/exploring-16s-rrna-data-with-phyloseq.html) | Full lab | |
+| [#4: Analyzing 16S rRNA Data with Phyloseq](https://science.c-moor.org/miniCURE-16S-Microbiome/analyzing-16s-rrna-data-with-phyloseq.html) | Full lab | |
+| [#5: Kickstart Project Work](https://science.c-moor.org/miniCURE-16S-Microbiome/kickstart-project-work.html) | Flexible | |
+| [Poster presentation](https://www.cloviscollege.edu/landing/stem-research-symposium-2023.html) | Flexible | Optional |
 
-### What to know
 
-### Where to get help
-
-### Grades
-
-
-### Footnotes
-
-**Contributions and Affiliations**
-
-- Valeriya Gaysinskaya, Johns Hopkins University
-- Frederick Tan, Johns Hopkins University
-- Katherine Cox, Johns Hopkins University
-- Sayumi York, Notre Dame of Maryland University
-
-Last Revised: July 2025
