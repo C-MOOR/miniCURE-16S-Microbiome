@@ -6,14 +6,14 @@ library(cow)
 ```{r, echo=FALSE, results='asis'}
 cow::borrow_chapter(
   doc_path = "spreadsheets-tutorial.Rmd",
-  repo_name = "sayumiyork/c-moor-ottr-generic"
+  repo_name = "C-MOOR/c-moor-ottr-generic"
 )
 ```
 
 ```{r, echo=FALSE, results='asis'}
 cow::borrow_chapter(
   doc_path = "legends-tutorial.Rmd",
-  repo_name = "sayumiyork/c-moor-ottr-generic"
+  repo_name = "C-MOOR/c-moor-ottr-generic"
 )
 ```
 
