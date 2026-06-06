@@ -9,7 +9,7 @@ library(cow)
 
 ```{r, echo=FALSE, results='asis'}
 cow::borrow_chapter(
-  doc_path = "docs/about-c-moor.md",
+  doc_path = "about-c-moor.Rmd",
   repo_name = "C-MOOR/c-moor-ottr-generic"
 )
 ```
@@ -45,7 +45,7 @@ Learn more at [Understanding Science 101](https://undsci.berkeley.edu/understand
 
 ```{r, echo=FALSE, results='asis'}
 cow::borrow_chapter(
-  doc_path = "docs/sciserver.md",
+  doc_path = "sciserver.Rmd",
   repo_name = "C-MOOR/c-moor-ottr-generic"
 )
 ```
@@ -53,10 +53,7 @@ cow::borrow_chapter(
 
 ```{r, echo=FALSE, results='asis'}
 cow::borrow_chapter(
-  doc_path = "docs/anvil.md",
+  doc_path = "anvil.Rmd",
   repo_name = "C-MOOR/c-moor-ottr-generic"
 )
 ```
-
-
-
