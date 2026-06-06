@@ -3,6 +3,7 @@ chapter_name: "Chapter "
 repo: https://github.com/sayumiyork/miniCURE-16S_Test/
 rmd_files: ["index.Rmd",
             "introduction.Rmd",
+            "instructor-guide.Rmd",
             "scientific-literature.Rmd",
             "16s-spreadsheets.Rmd",
             "explore-phyloseq.Rmd",
