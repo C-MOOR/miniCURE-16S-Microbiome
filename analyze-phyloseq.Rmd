@@ -60,7 +60,7 @@ This activity aims to analyze metagenomic diversity using the following R packag
 
 *Estimated time: 35 min*
 
-**Activity 1. Explore a phyloseq object through the “Analyze 16S rRNA Data with phyloseq” tutorial on SciServer.**
+**Activity 1. Explore a phyloseq object through the “Analyze 16S rRNA Data with phyloseq” tutorial.**
 
 1. Access the C-MOOR Tutorials
 
@@ -70,7 +70,7 @@ This activity aims to analyze metagenomic diversity using the following R packag
 
 - If you are using an alternative setup, follow the instructions provided by your instructor.
 
-2. Start the “Analyze 16S rRNA Data with phyloseq” tutorial. Visit SciServer Guides and FAQs. If you need assistance accessing the tutorial.
+2. Start the “Analyze 16S rRNA Data with phyloseq” tutorial. 
 3. To move through the activities click “Continue” at the bottom of the screen. When you are done with a topic, click “Next Topic” to move on.
 4. This tutorial has small boxes in which you can enter and run short lines of code to analyze the data.
 5. As you work through the tutorial, take snapshots of your work and paste your answers in the grey boxes below:
