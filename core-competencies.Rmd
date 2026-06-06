@@ -1,0 +1,93 @@
+
+```{r setup, include = FALSE}
+library(cow)
+```
+# Core Competencies {#competencies-table}
+
+The activities in this miniCURE address several core concepts and competencies as identified by professional societies and working groups.  The table below lists the relevant core concepts and competencies from the following sources:
+<br>
+<br>
+
+  - [Vision and Change in Undergraduate Biology Education](https://www.aaas.org/resources/vision-change-undergraduate-biology-education-call-action) AAAS report
+  - [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by [NIBLSE](https://qubeshub.org/community/groups/niblse)
+  
+<br>
+<br>
+
+
+```{r, echo=FALSE}
+competencies <- tibble::tribble(
+  ~source, ~competencies,
+  
+    "**Vision and Change**",  paste(
+                              "Concepts\n",
+                              "<ul>",
+                              # "<li>**1**: EVOLUTION: The diversity of life evolved over time by processes of mutation, selection, and genetic change.</li>",
+                              # "<li>**2**: STRUCTURE AND FUNCTION: Basic units of structure define the function of all living things.</li>",
+                              #"<li>**3**: INFORMATION FLOW, EXCHANGE, AND STORAGE: The growth and behavior of organisms are activated through the expression of genetic information in context.</li>",
+                              # "<li>**4**: PATHWAYS AND TRANSFORMATIONS OF ENERGY AND MATTER: Biological systems grow and change by processes based upon chemical transformation pathways and are governed by the laws of thermodynamics.</li>",
+                              "<li>**5**: SYSTEMS: Living systems are interconnected and interacting.</li>",
+                              "</ul>",
+                              
+                              "Competencies\n",
+                              "<ul>",
+                              "<li>**1**: Ability to apply the process of science</li>",
+                              "<li>**2**: Ability to use quantitative reasoning</li>",
+                              # "<li>**3**: Ability to use modeling and simulation</li>",
+                              "<li>**4**: Ability to tap into the interdisciplinary nature of science</li>",
+                              "<li>**5**: Ability to communicate and collaborate with other disciplines</li>",
+                              "<li>**6**: Ability to understand the relationship between science and society</li>",
+                              "</ul>",
+                              sep="\n"),
+  
+    # "**Genetics**",           paste(
+    #                           "Concepts\n",
+    #                           "<ul>",
+                              # "<li>How is DNA organized?</li>",
+                              # "<li>What are the molecular components and mechanisms necessary to preserve and duplicate an organism’s genome?</li>",
+                              # "<li>What are the mechanisms by which an organism’s genome is passed on to the next generation?</li>",
+                              # "<li>How can one deduce information about genes, alleles, and gene functions from analysis of genetic crosses and patterns of inheritance?</li>",
+                              # "<li>How does the phenomenon of linkage affect the assortment of alleles during meiosis?</li>",
+                              #"<li>How is genetic information expressed so it affects an organism’s structure and function?</li>",
+                              # "<li>How can gene activity be altered in the absence of DNA changes?</li>",
+                              # "<li>How do genes and genomes control changes in an organism’s structure and function throughout its life cycle?</li>",
+                              # "<li>How do different types of mutations affect genes and the corresponding mRNAs and proteins?</li>",
+                              # "<li>What are the processes that can affect the frequency of genotypes and phenotypes in a population over time?</li>",
+                              #"<li>How do the results of molecular genetic studies in model organisms help us understand aspects of human genetics and genetic diseases?</li>",
+                              #"<li>What experimental methods are commonly used to analyze gene structure, gene expression, gene function, and genetic variants?</li>",
+                              # "</ul>",
+                              # 
+                              # "Competencies\n",
+                              # "<ul>",
+                              # "<li>Locate, read, and comprehend primary literature research papers on genetics topics</li>",
+                              # "<li>Implement observational strategies to formulate a question</li>",
+                              # "<li>Generate testable hypotheses</li>",
+                              # "<li>Design an experiment using appropriate controls and appropriate sample sizes</li>",
+                              # "<li>Gather and evaluate experimental evidence, including qualitative and quantitative data</li>",
+                              # "<li>Apply statistical methods when analyzing their data, and use patterns to construct a model</li>",
+                              #"<li>Generate and interpret graphs displaying experimental results</li>",
+                              #"<li>Critique large data sets and use bioinformatics to assess genetics data</li>",
+                              #"<li>Communicate experimental results effectively, including writing research papers and giving presentations</li>",
+                              # "<li>Effectively explain genetics concepts to different audiences</li>",
+                              # "<li>Tap into the interdisciplinary nature of science</li>",
+                              # "<li>Identify and critique scientific issues relating to society or ethics</li>",
+                              # "</ul>",
+                              # sep="\n"),
+  
+    "**Bioinformatics**",     paste(
+                              "<ul>",
+                              "<li>**C1**: Explain the role of computation and data mining in addressing hypothesis-driven and hypothesis-generating questions within the life sciences</li>",
+                               # "<li>**C2**: Summarize key computational concepts, such as algorithms and relational databases, and their applications in the life sciences</li>",
+                               "<li>**C3**: Apply statistical concepts used in bioinformatics</li>",
+                               "<li>**C4**: Use bioinformatics tools to examine complex biological problems in evolution, information flow, and other important areas of biology</li>",
+                               "<li>**C5**: Find, retrieve, and organize various types of biological data</li>",
+                               "<li>**C6**: Explore and/or model biological interactions, networks and data integration using bioinformatics</li>",
+                               # "<li>**C7**: Use command-line bioinformatics tools and write simple computer scripts</li>",
+                               # "<li>**C8**: Describe and manage biological data types, structure, and reproducibility</li>",
+                               # "<li>**C9**: Interpret the ethical, legal, medical, and social implications of biological data</li>",
+                              "</ul>",
+                              sep="\n")
+)
+
+knitr::kable(competencies, col.names = NULL, format = "html", escape = FALSE)
+```
