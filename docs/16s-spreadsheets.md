@@ -6,9 +6,7 @@
 
 
 
-
-# 16S rRNA Data in spreadsheets 
-
+# 16S rRNA Data in spreadsheets  
 
 ## Meet the MISO study
 
