@@ -1,0 +1,63 @@
+# (PART\*) Project Work {-}
+
+<!-- Set up code of OTTR Book-->
+
+
+# Kickstart Project Work
+
+<h2>Purpose</h2>
+
+The purpose of this lab is to gain practice in scientific communication, project exploration and work on your scientific poster!
+
+<h2>Learning Objectives</h2>
+
+1. Engage with the Scientific Process
+1. Communicate your findings
+1. Create an outline for further exploratory research
+1. Develop your plot images using R code
+
+<h2>Introduction</h2>
+
+It's time to begin working on your independent research projects! You have your choice of a few datasets, each which allows you to ask a different set of questions and examine different variables. 
+
+Here's a few ideas to get you started:
+
+- Pre- and probiotic supplements have been gaining visibilty over time as the field next generation sequencing has grown. What taxa are included in popular supplements? Can you find them in these datasets and if so, how are they correlated with different conditions?
+- Many disease states are reflected in the gut microbiome, even if they themselves are not gastrointestinal disorders. Think of some disease states that you're interested in. What kinds of microbiome compositions do we see in different states and how is biodiversity impacted?
+- While we often focus on the most common core microbes, some datasets have a wealth of rare taxa to explore and may be important to the host's phenotype. Consider looking at a few less common microbes in more detail and see if one catches your eye.
+
+### Activity 1 – Use the project work module to come up with a research question
+
+*Estimated time: 90 minutes, however may vary greatly by research team*
+
+1. Access the C-MOOR Tutorials
+
+- If you are using SciServer, log into SciServer, click on compute and open your “C-MOOR LearnR” container. Visit SciServer Guides and FAQs if you need to jog your memory on how to do this.
+
+- If you are using AnVIL, log into AnVIL, navigate to your class Workspace, start up an RStudio Cloud Environment, and open RStudio. Visit the AnVIL Guides and FAQs if you need to jog your memory on how to do this. This module can be found in the “3-16s-project” folder of the “16s” curriculum folder.
+
+- If you are using an alternative setup, follow the instructions provided by your instructor.
+
+2. Start the “16S rRNA Human Gut Microbiome Project Work” tutorial. 
+3. This tutorial allows you to jump to different datasets and analyses of your choice and run short lines of code to analyze the data. 
+4. Consult your research group and instructor as your research idea progresses until you've come up with a testable idea that everyone is satisfied with.
+
+
+### Footnotes
+
+- [16S miniCURE Guide](https://science.c-moor.org/miniCURE-16S-Microbiome/s-minicure-guide.html)
+
+#### Resources
+
+
+#### Contributions and affiliations
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Gauri Paul, Clovis Community College
+- Gugulethu Sakana, Clovis Community College
+- Frederick Tan, Johns Hopkins University
+- Rosa Alcazar, Clovis Community College
+- Stephanie Coffman, Clovis Community College
+- Sayumi York, Notre Dame of Maryland University
+
+Last Revised: June 5, 2026

@@ -42,9 +42,7 @@ The most popular sequencing technique for the analysis of bacterial diversity is
 
 *Estimated time: 25 min*
 
-Explore a phyloseq object through the “Explore 16S rRNA Data with phyloseq” tutorial on SciServer.
-
-Log into SciServer, click on compute, and create a new C-MOOR LearnR container. When creating a container, remember to:
+Explore a phyloseq object through the “Explore 16S rRNA Data with phyloseq” tutorial on your cloud platform.
 
 1. Access the C-MOOR Tutorials
 
@@ -54,7 +52,7 @@ Log into SciServer, click on compute, and create a new C-MOOR LearnR container. 
 
 - If you are using an alternative setup, follow the instructions provided by your instructor.
 
-2. Start the “Explore 16S rRNA Data with phyloseq” tutorial. Visit SciServer Guides and FAQs. If you need assistance accessing the tutorial.
+2. Start the “Explore 16S rRNA Data with phyloseq” tutorial. 
 3. To move through the activities click “Continue” at the bottom of the screen. When you are done with a topic, click “Next Topic” to move on.
 4. This tutorial has small boxes in which you can enter and run short lines of code to analyze the data.
 5. As you work through the tutorial, take snapshots of your work and paste your answers in the grey boxes below:
