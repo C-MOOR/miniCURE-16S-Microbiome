@@ -285,3 +285,4 @@ figures
 tables
 s-minicure-guide
 footnotes-23
+competencies-table

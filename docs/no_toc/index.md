@@ -44,7 +44,6 @@ _Programming skills_
 This activity addresses several core concepts and competencies from the following sources:
 
   - [Vision and Change in Undergraduate Biology Education](https://visionandchange.org/) AAAS report
-  - [Genetics Learning Framework](https://genetics-gsa.org/education/genetics-learning-framework/) by [GSA](https://genetics-gsa.org/)
   - [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by [NIBLSE](https://qubeshub.org/community/groups/niblse)
 
 
