@@ -8,7 +8,6 @@ ottrpal::set_knitr_image_path()
 ```
 
 
-
 # 16S rRNA Data in spreadsheets  
 
 ## Meet the MISO study
