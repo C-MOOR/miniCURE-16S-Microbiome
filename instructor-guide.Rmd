@@ -3,38 +3,26 @@
 library(cow)
 ```
 
-
-
-
-<!-- Instructor Guide -->
+# Instructor Guide {-}
 
 ```{r, echo=FALSE, results='asis'}
 cow::borrow_chapter(
-  doc_path = "docs/instructor-guide.md",
-  repo_name = "sayumiyork/c-moor-ottr-generic"
+  doc_path = "instructor-guide.Rmd",
+  repo_name = "C-MOOR/c-moor-ottr-generic"
 )
 ```
 
-# Human gut 16S rRNA
 
-### Content overview
+### Content overview {-}
 
-### Sample Schedules
+| **Name** | **Length** | **Notes** |
+| :--- | :---: | :---: |
+| [Overview / Scientific Process](https://science.c-moor.org/miniCURE-16S-Microbiome/introduction.html) | 1 hr | |
+| [#1: Scientific Literature](https://science.c-moor.org/miniCURE-16S-Microbiome/scientific-literature.html) | Full lab | Pre-lab: Scientific Literature |
+| [#2: 16S rRNA Data in spreadsheets](https://science.c-moor.org/miniCURE-16S-Microbiome/s-rrna-data-in-spreadsheets.html) | Full lab |  |
+| [#3: Exploring 16S rRNA Data with Phyloseq](https://science.c-moor.org/miniCURE-16S-Microbiome/exploring-16s-rrna-data-with-phyloseq.html) | Full lab | |
+| [#4: Analyzing 16S rRNA Data with Phyloseq](https://science.c-moor.org/miniCURE-16S-Microbiome/analyzing-16s-rrna-data-with-phyloseq.html) | Full lab | |
+| [#5: Kickstart Project Work](https://science.c-moor.org/miniCURE-16S-Microbiome/kickstart-project-work.html) | Flexible | |
+| [Poster presentation](https://www.cloviscollege.edu/landing/stem-research-symposium-2023.html) | Flexible | Optional |
 
-### What to know
 
-### Where to get help
-
-### Grades
-
-
-### Footnotes
-
-**Contributions and Affiliations**
-
-- Valeriya Gaysinskaya, Johns Hopkins University
-- Frederick Tan, Johns Hopkins University
-- Katherine Cox, Johns Hopkins University
-- Sayumi York, Notre Dame of Maryland University
-
-Last Revised: July 2025

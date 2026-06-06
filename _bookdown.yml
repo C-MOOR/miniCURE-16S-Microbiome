@@ -11,6 +11,8 @@ rmd_files: ["index.Rmd",
             "additional-datasets.Rmd",
             "community-analysis-and-feedback.Rmd",
             "resources.Rmd",
+            "appendix.Rmd",
+            "core-competencies.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
