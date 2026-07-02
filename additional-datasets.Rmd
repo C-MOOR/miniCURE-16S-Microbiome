@@ -1,6 +1,6 @@
 # Additional Datasets
 
-## The FeFiFo Study
+### The FeFiFo Study
 
 You have probably heard that some fermented foods like yogurt and cheese contain bacteria that help support a healthy gut. Likewise, fiber is known for positively impacting digestion (though you can also have too much of all of these foods).
 
@@ -21,7 +21,7 @@ The researchers examined effect of either high fiber (n=18) or fermented foods o
 - Are the subject’s microbiomes at a given timepoint similar to each other? Similar to other samples from the same subject no matter the timepoint?
 
 
-## Alzheimer's dataset
+### Alzheimer's dataset
 
 Our body requires our organs working in tandem and communicating with each other in order to function. One of the key relationships you may have heard of is the gut-brain axis, a bidirectional relationship between the gastrointestinal system and the central nervous system. 
 
