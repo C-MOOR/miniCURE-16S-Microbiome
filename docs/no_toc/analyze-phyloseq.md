@@ -26,7 +26,7 @@ These analyses are slightly more complex to run and interpret, but students who 
 [Lecture](https://docs.google.com/presentation/d/1QZbSBPOGkBeizh1L45C6EaktOxl6pqrTDGNIncHQ5lY/edit?usp=sharing)
 
 
-## Activity - Exploring 16S rRNA Data with phyloseq
+## Activity - Analyzing 16S rRNA Data with phyloseq
 
 ### Purpose
 

@@ -157,7 +157,7 @@ contributions-and-affiliations-11
 analyzing-16s-rrna-data-with-phyloseq
 analyzing-16s-rrna-data-with-phyloseq-1
 lecture---analyzing-16s-rrna-data-with-phyloseq
-activity---exploring-16s-rrna-data-with-phyloseq-1
+activity---analyzing-16s-rrna-data-with-phyloseq
 purpose-8
 learning-objectives-7
 introduction-8
