@@ -32,7 +32,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1QZbSBPOGkBeizh1L
 [Lecture](https://docs.google.com/presentation/d/1QZbSBPOGkBeizh1L45C6EaktOxl6pqrTDGNIncHQ5lY/edit?usp=sharing)
 
 
-## Activity - Exploring 16S rRNA Data with phyloseq
+## Activity - Analyzing 16S rRNA Data with phyloseq
 
 ### Purpose
 
