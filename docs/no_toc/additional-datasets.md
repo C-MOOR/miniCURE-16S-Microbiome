@@ -35,7 +35,7 @@ As computational methods and biological databases have advanced in the nearly de
 - Looking at other published research studies, are the microbial taxa associated with AD also found in this study?
 - Select a microbial taxa of interest (perhaps from the idea above) and explore it at increasing levels of resolution up to the level of species. Looking at other published research studies, what functions are these taxa associated with? Do they have any relation to AD or other neurodegenerative diseases?
 
-## Alcohol dataset
+### Alcohol dataset
 
 Alcohol remains a key element of many of American pastimes and marks important occasions in life, from having a glass of champagne during a celebration or buying a beer at the ballpark. Consider that ethanol, the main inebriating element in alcohol, is also often used as a cleaning agent to destroy microbes in the lab. While the host may be enjoying (or regretting) their drink, alcohol exposure could be a major disturbance to the gut!
 
