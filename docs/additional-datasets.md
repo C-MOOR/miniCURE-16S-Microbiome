@@ -35,6 +35,35 @@ As computational methods and biological databases have advanced in the nearly de
 - Looking at other published research studies, are the microbial taxa associated with AD also found in this study?
 - Select a microbial taxa of interest (perhaps from the idea above) and explore it at increasing levels of resolution up to the level of species. Looking at other published research studies, what functions are these taxa associated with? Do they have any relation to AD or other neurodegenerative diseases?
 
+## Alcohol dataset
+
+Alcohol remains a key element of many of American pastimes and marks important occasions in life, from having a glass of champagne during a celebration or buying a beer at the ballpark. Consider that ethanol, the main inebriating element in alcohol, is also often used as a cleaning agent to destroy microbes in the lab. While the host may be enjoying (or regretting) their drink, alcohol exposure could be a major disturbance to the gut!
+
+Using data collecting during the study [*Characterization of gut microbiota composition and functions in patients with chronic alcohol overconsumption* by Bjørkhaug et al. (2019)](https://doi.org/10.1080/19490976.2019.1580097) we look at the impact of alcohol consumption on the human gut microbiome. 
+
+
+![](additional-datasets_files/figure-docx//1dEZtb0TgLbzhbr3HxQElwg8hENur2HMIzseg19OGd0g_h70cf399cde2c113c_0_5.png){width=100%}
+
+Subjects could fall into one of three experimental groups, two of which were defined by the study. The third group was created by us to allow us to take advantage of the data from subjects who did not fall into either original group. Category definitions are split by sex and use grams of (presumably pure) alcohol consumed per day: 
+
+**For men:**
+- Control: Less than 10 grams of alcohol consumed per day
+- Intermediate: 10-40 grams of alcohol consumed per day
+- Overconsumption: More than 40 grams of alcohol consumed per day
+
+**For women:**
+- Control: Less than 5 grams of alcohol consumed per day
+- Intermediate: 5-20 grams of alcohol consumed per day
+- Overconsumption: More than 20 grams of alcohol consumed per day
+
+Note that these are based on daily levels of consumption and measure present-day activities. While the study noted no prior history of binge drinking for the control group, no timeline is given for what present day means and whether other forms of overconsumption were included in these exclusion factors. The study also does not make a note of what kind of alcohol and what timespan the drinks were consumed so be careful not assume a standard kind of drink or timeline was consistent across subjects.
+
+
+#### Some questions to get you started
+
+- While this study allows control subjects to consume a low amount of alcohol per week, the World Health Organization (WHO) and the United States government have recognized alcohol as a carcinogen for which there is no "safe" level of consumption. In addition to subjects by group we also have access to data on their individual amounts of consumption. Consider how even a little bit of alcohol consumption might change the gut microbiome compared to individuals who are completely abstinent from alcohol consumption. Is there a distinct difference between consumers and non-consumers, or is there a more gradient like pattern as consumption increases?
+- Alcohol consumption can lead to other health issues such as nausea or dehydration. How do your results compare with common hangover symptoms? Is there a common microbiome between them or do different microbiomes lead to the same symptoms? 
+- GLP-1s have been linked to reducing substance abuse and cravings. Alcohol consumption has both a physical and psychological impact. How does the gut mircobiome compare with other addictions or relate to the gut-brain axis? 
 
 ### Footnotes
 
