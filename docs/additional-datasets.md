@@ -72,6 +72,7 @@ Note that these are based on daily levels of consumption and measure present-day
 - [16S miniCURE Guide](https://science.c-moor.org/miniCURE-16S-Microbiome/s-minicure-guide.html)
 - [Wastyk et al. 2021](https://www.cell.com/cell/fulltext/S0092-8674(21)00754-6?ref=podcastdisclosed.com)
 - [Zhuang et al. 2018](https://journals.sagepub.com/doi/abs/10.3233/JAD-180176)
+- [Bjørkhaug et al. (2019)](https://doi.org/10.1080/19490976.2019.1580097)
 
 #### Contributions and Affiliations
 
